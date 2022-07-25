@@ -11,6 +11,9 @@
 		F3C45B022885428100C96F6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C45B012885428100C96F6D /* ContentView.swift */; };
 		F3C45B042885428400C96F6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C45B032885428400C96F6D /* Assets.xcassets */; };
 		F3C45B072885428400C96F6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C45B062885428400C96F6D /* Preview Assets.xcassets */; };
+		F3C45B0E28854A5500C96F6D /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C45B0D28854A5500C96F6D /* TabBarView.swift */; };
+		F3C45B1028854ABE00C96F6D /* TextModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C45B0F28854ABE00C96F6D /* TextModifierView.swift */; };
+		F3DC4834288896490094C572 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC4833288896490094C572 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		F3C45B012885428100C96F6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F3C45B032885428400C96F6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3C45B062885428400C96F6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F3C45B0D28854A5500C96F6D /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		F3C45B0F28854ABE00C96F6D /* TextModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModifierView.swift; sourceTree = "<group>"; };
+		F3DC4833288896490094C572 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 				F3C45B012885428100C96F6D /* ContentView.swift */,
 				F3C45B032885428400C96F6D /* Assets.xcassets */,
 				F3C45B052885428400C96F6D /* Preview Content */,
+				F3C45B0D28854A5500C96F6D /* TabBarView.swift */,
+				F3C45B0F28854ABE00C96F6D /* TextModifierView.swift */,
+				F3DC4833288896490094C572 /* LoginView.swift */,
 			);
 			path = "netology-swiftui";
 			sourceTree = "<group>";
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3C45B1028854ABE00C96F6D /* TextModifierView.swift in Sources */,
 				F3C45B022885428100C96F6D /* ContentView.swift in Sources */,
+				F3C45B0E28854A5500C96F6D /* TabBarView.swift in Sources */,
+				F3DC4834288896490094C572 /* LoginView.swift in Sources */,
 				F3C45B002885428100C96F6D /* netology_swiftuiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
